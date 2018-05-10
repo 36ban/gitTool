@@ -8,7 +8,7 @@ const express = require('express');
 const swig = require('swig');
 const gitOperations = require('./controllers/gitOperations');
 const app = express();
-
+console.log(11111111)
 //配置swig
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
